@@ -36,3 +36,32 @@ para correr nuestras migraciones de laravel.
 9° Desde el navegador podemos ingresar a la direccion:
 localhost:8200 y ya podremos buscar a nuestros pokemon´s
 favoritos.
+
+## POKEAPI
+Para la busqueda de los pokemon´s se utilizó la API del
+sitio oficial de POKEMON, gracias a ella obtenemos los 
+datos más relevantes y por medio de HTTP requests
+hacemos las peticiones para tener acceso a dicha iunformacion.
+Se implemento la tecnología AXIOS para las peticiones GET hacia
+la PokeAPI y POST para guardar en nuestra base de datos los id´s
+de los pokemon´s favoritos del usuarios.
+
+## FUNCIONAMIENTO
+
+-En la primera pantalla de la aplicacion web podrás observar diez
+pokemons generads aleatoreamente. Lo anterior con al finalidad de
+se muestren varias opciones al usuario.
+-Cada trajeta de los personajes cuanta con un boton en forma de 
+estrella en el cual podrás darle click para agregarlo a la lista
+de tus favoritos, asi mismo encontraras un buscador el cual tendrás
+que ingresar el número o nombre exacto del pokemon que deseas visualizar,
+en esta busqueda no solo aparecera el personaje buscado si no junto con 9
+opciones de pokemons junto con la tuya.
+-Luego de que se haya marcado/desmacado el boton de favoritos, aparecerá
+una alerta indicando si ya has agregado el registo o debes regitrarte para
+poder realizar la acción antes mencionada.
+-Finalmente si realizaste exisamente tu resgitro o inciaste sesión con los
+botones ubicados en la esquina superior derecha, podrás observar la lista
+de todos los pokemon´s que has agregado, asi mismo al regresar a la pagina
+de inicio te saldran marcadas aquellas opciones que en otras ocaciones has 
+seleccionado.
