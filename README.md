@@ -51,15 +51,18 @@ de los pokemon´s favoritos del usuarios.
 -En la primera pantalla de la aplicacion web podrás observar diez
 pokemons generads aleatoreamente. Lo anterior con al finalidad de
 se muestren varias opciones al usuario.
+
 -Cada trajeta de los personajes cuanta con un boton en forma de 
 estrella en el cual podrás darle click para agregarlo a la lista
 de tus favoritos, asi mismo encontraras un buscador el cual tendrás
 que ingresar el número o nombre exacto del pokemon que deseas visualizar,
 en esta busqueda no solo aparecera el personaje buscado si no junto con 9
 opciones de pokemons junto con la tuya.
+
 -Luego de que se haya marcado/desmacado el boton de favoritos, aparecerá
 una alerta indicando si ya has agregado el registo o debes regitrarte para
 poder realizar la acción antes mencionada.
+
 -Finalmente si realizaste exisamente tu resgitro o inciaste sesión con los
 botones ubicados en la esquina superior derecha, podrás observar la lista
 de todos los pokemon´s que has agregado, asi mismo al regresar a la pagina
