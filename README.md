@@ -5,6 +5,6 @@ Este aplicativo web te permitirá buscar a tus pokemon´s favoritos ya sea por s
 Para instalar el proyecto debera tener instalado Docker
 
 1° Debera clonar el repositorio  desdel siguiente link: 
-https://gitlab.com/abrahampun/superstock
+https://github.com/roduriel/PokechallengeProduction.git
 con el comando git clone
 
