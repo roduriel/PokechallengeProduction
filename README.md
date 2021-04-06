@@ -11,17 +11,17 @@ Este aplicativo web te permitirá buscar a tus pokemon´s favoritos ya sea por s
  esta informacion obtenida tanto en la API de pokemon como en el controlador de laravel
  es regresando a la vista del cliente.
  
- -Para guardar la informacion de pokemons favoritos, se muestran la opciones en la
+- Para guardar la informacion de pokemons favoritos, se muestran la opciones en la
   vista del cliente con VueJs y se realizan 2 peticiones de tipo POST, una para 
   validar si existe un usuario con ese ld de pokemon y la segunta es para poder gardar
   el registro  en nuesta base de datos de MYSQL y finalmente si todo el proceso fue 
   exitoso, se renderizan los componentes con VueJs y se les muestra al cliente con la 
   informacion nuevemnte obtenida en la API y el controlador de Laravel.
   
-  -Al mostrar la lista de favoritos se realiza una consulta a la base de datos MySQL 
-   por medio de una pesticion de tipo POST que envia el framwork JQuery para que pueda
-   procesar los datos y mostralos al cliente en la vista de index del controlador de
-   Favoritos.
+- Al mostrar la lista de favoritos se realiza una consulta a la base de datos MySQL 
+  por medio de una pesticion de tipo POST que envia el framwork JQuery para que pueda
+  procesar los datos y mostralos al cliente en la vista de index del controlador de
+  Favoritos.
    
 ## POKEAPI
 Para la busqueda de los pokemon´s se utilizó la API del
@@ -70,22 +70,22 @@ favoritos.
 
 ## FUNCIONAMIENTO
 
--En la primera pantalla de la aplicacion web podrás observar diez
+- En la primera pantalla de la aplicacion web podrás observar diez
 pokemons generads aleatoreamente. Lo anterior con al finalidad de
 se muestren varias opciones al usuario.
 
--Cada trajeta de los personajes cuanta con un boton en forma de 
+- Cada trajeta de los personajes cuanta con un boton en forma de 
 estrella en el cual podrás darle click para agregarlo a la lista
 de tus favoritos, asi mismo encontraras un buscador el cual tendrás
 que ingresar el número o nombre exacto del pokemon que deseas visualizar,
 en esta busqueda no solo aparecera el personaje buscado si no junto con 9
 opciones de pokemons junto con la tuya.
 
--Luego de que se haya marcado/desmacado el boton de favoritos, aparecerá
+- Luego de que se haya marcado/desmacado el boton de favoritos, aparecerá
 una alerta indicando si ya has agregado el registo o debes regitrarte para
 poder realizar la acción antes mencionada.
 
--Finalmente si realizaste exisamente tu resgitro o inciaste sesión con los
+- Finalmente si realizaste exisamente tu resgitro o inciaste sesión con los
 botones ubicados en la esquina superior derecha, podrás observar la lista
 de todos los pokemon´s que has agregado, asi mismo al regresar a la pagina
 de inicio te saldran marcadas aquellas opciones que en otras ocaciones has 
